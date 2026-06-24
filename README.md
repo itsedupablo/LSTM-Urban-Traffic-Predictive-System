@@ -46,10 +46,12 @@ El proyecto ha sido desarrollado bajo una filosofía *Open Source*, garantizando
 ## Visualización de Resultados
 ### Dashboard de Control (IHM)
 La interfaz permite a los operadores visualizar la predicción a 24 horas y la tendencia de las próximas 4 horas de forma intuitiva, con un mapa de calor dinámico sobre la ciudad de Madrid.
-<img width="722" height="372" alt="image" src="https://github.com/itsedupablo/LSTM-Urban-Traffic-Predictive-System/blob/main/images/map%20view%20from%20dashboard.png" />
+
+<img width="920" height="380" alt="image" src="https://github.com/itsedupablo/LSTM-Urban-Traffic-Predictive-System/blob/main/images/map%20view%20from%20dashboard.png" />
 
 ### Rendimiento del Modelo PRO
 Como se observa en las pruebas de validación, el sistema captura con precisión los picos de intensidad sin presentar el efecto de desfase (*lag*) común en modelos menos optimizados.
+
 <img width="920" height="380" alt="image" src="https://github.com/itsedupablo/LSTM-Urban-Traffic-Predictive-System/blob/main/images/model%20prediction%20vs%20real%20traffic.png" />
 
 ### Instalación y Uso
