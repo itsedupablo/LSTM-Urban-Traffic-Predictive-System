@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+/* ── SOLUCIÓN DE OVERFLOW Y ASIGNACIÓN DE FONDO CARRETERAS MADRID ── */
+html, body, .stApp {
+  background-image: linear-gradient(rgba(10, 12, 22, 0.5), rgba(10, 12, 22, 0.6)), 
+                    url('https://dam.melia.com/melia/accounts/f8/4000018/projects/127/assets/25/66520/66298fb417a21722cc9a211d332b5e93-1634821397.jpg?im=RegionOfInterestCrop=(1999,1500),regionOfInterest=(3543.5,2495)') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  color: #f0f2ff !important;
+  overflow-x: hidden !important;
+  width: 100.01% !important;
+}
+
+html, body, .stApp, [data-testid="stHeader"] {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+h1, h2, h3, .main-subtitle, .section-title, .metric-card, .leyenda-box, .sidebar-label, .graphhopper-card {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+/* DISEÑO GENERAL SCADA DARK / GLASSMORPHISM */
+[data-testid="stSidebar"], .metric-card, .leyenda-box, .chart-container, .error-box, .graphhopper-card {
+  background: rgba(22, 28, 45, 0.5) !important;
+  backdrop-filter: blur(25px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(25px) saturate(180%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Subtítulos de sección - CORREGIDO OPACIDAD */
+.main-subtitle {
+  font-size: 13px;
+  color: rgba(240, 242, 255, 0.85); /* Cambiado de 0.6 a 0.85 */
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+.section-title {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: rgba(240, 242, 255, 0.85); /* Cambiado de 0.4 a 0.85 */
+  margin-bottom: 12px;
+  margin-top: 5px;
+}
+
+/* Panel de control deslizante nativo */
+[data-testid="stSidebar"] {
+  padding: 1.5rem 1rem !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+.sidebar-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: rgba(240, 242, 255, 0.5);
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 6px;
+}
+
+/* Indicador dinámico de hora seleccionada */
+.time-selector-display {
+  font-size: 12px;
+  color: #3b82f6;
+  text-align: right;
+  margin-top: 4px;
+}
+
+/* Estilo de elementos de entrada del panel */
+div[data-baseweb="select"], [data-testid="stDateInput"] input {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 12px !important;
+  color: #ffffff !important;
+}
+
+.leyenda-box {
+  padding: 14px !important;
+  border-radius: 12px !important;
+}
+.leyenda-item {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(240, 242, 255, 0.8);
+  margin-bottom: 5px;
+}
+
+/* Tarjeta métrica sin distorsión de escala */
+.metric-card {
+  padding: 24px !important;
+  margin-bottom: 15px;
+}
+.card-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: rgba(240, 242, 255, 0.5);
+  display: block;
+  margin-bottom: 4px;
+}
+.card-value {
+  font-size: 38px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+.card-unit {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(240, 242, 255, 0.4);
+}
+.card-status {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+
+.error-box { 
+  padding: 20px !important; 
+  color: #fca5a5; 
+  font-size: 13px; 
+}
+
+/* Nueva tarjeta informativa de GraphHopper */
+.graphhopper-card {
+  padding: 16px !important;
+  border-radius: 12px !important;
+}
+
+/* ARREGLAR MAPA EN PANTALLA COMPLETA */
+.stPydeckChart {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 450px !important;
+}
+
+.stPydeckChart iframe {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 450px !important;
+    border-radius: 16px !important;
+}
+
+/* Asegurar que el contenedor del mapa no tenga overflow */
+.element-container:has(.stPydeckChart) {
+    width: 100% !important;
+    overflow: hidden !important;
+}
+
+/* Forzar que el deck ocupe todo el espacio */
+.deck-container {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Arreglar interacción táctil */
+.deck-canvas {
+    touch-action: auto !important;
+    cursor: default !important;
+}
+
+/* Estilizar iframe interno del mapa */
+.element-container iframe { 
+  border-radius: 16px !important;
+}
+
+/* MEJORAS PARA EL GRÁFICO */
+.chart-container {
+    background: rgba(22, 28, 45, 0.7) !important;  /* Más opaco */
+    backdrop-filter: blur(25px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(25px) saturate(180%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4) !important;
+    padding: 16px !important;
+    margin-bottom: 15px !important;
+    width: 100% !important;
+    overflow: hidden !important;  /* Para mantener bordes redondeados */
+}
+
+/* Eliminar cualquier borde o contenedor superior extra */
+.chart-container .vega-embed {
+    width: 100% !important;
+    border-radius: 12px !important;
+    background: transparent !important;
+}
+
+/* Asegurar que el gráfico no tenga espacios extra */
+.vega-embed {
+    border-radius: 12px !important;
+}
+
+/* Opcional: si quieres que los ejes sean más visibles */
+.vega-bindings {
+    display: none !important;  /* Oculta controles extra si aparecen */
+}
+
+/* Altair / VegaLite */
+[data-testid="stVegaLiteChart"] {
+    border-radius: 16px !important;
+    overflow: hidden !important;
+
+    background: rgba(22, 28, 45, 0.7) !important;
+
+    backdrop-filter: blur(25px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(25px) saturate(180%) !important;
+
+    border: 1px solid rgba(255,255,255,.08) !important;
+
+    box-shadow: 0 15px 35px rgba(0,0,0,.4) !important;
+
+    padding: 12px !important;
+}
