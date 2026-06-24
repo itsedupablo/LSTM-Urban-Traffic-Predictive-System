@@ -1,5 +1,13 @@
-# **Sistema Predictivo del Tráfico Urbano basado en RNN (LSTM)**   
-----------------------------------------------------------------------------------------------------
+# **Sistema Predictivo del Tráfico Urbano basado en RNN (LSTM)**  
+ ***Urban Traffic Activity Predictive System based on RNN (LSTM)***
+
+<img width="2862" height="1538" alt="Captura de pantalla 2026-06-24 000247" src="https://github.com/user-attachments/assets/a31c8327-7604-4b08-8e52-a507df6e18c0" />
+
+
+> ##### **Idiomas / Languages:** [Español](#español) | [English](#english)
+> <a name="español"></a>
+### 🇪🇸 Español
+---
 ## Resumen
 Este proyecto presenta el desarrollo de un sistema inteligente basado en redes neuronales LSTM capaz 
 de predecir el comportamiento del tráfico con un horizonte de 24 horas en un punto específico de la 
@@ -22,9 +30,42 @@ sistema a un entorno de uso real. Los resultados obtenidos demuestran el potenci
 herramientas para mejorar la gestión proactiva de la movilidad urbana, sientan las bases de un sistema 
 escalable y aplicable en entornos operativos reales.
 
+## Hitos Técnicos y Resultados (Highlights)
+*   **Arquitectura Avanzada:** Implementación de una **Stacked LSTM** multivariante capaz de capturar dependencias temporales jerárquicas (inercia inmediata vs. tendencias estacionales).
+*   **Ingeniería de Características:** Integración de variables de contexto social (festivos, vísperas, horas punta) y normalización cíclica del tiempo.
+*   **Alta Precisión:** Validación con datos reales del Sensor 3488 (M-30) obteniendo un **R² de 0,9738** y una precisión media del **90,38%**.
+*   **Eficiencia Operativa:** Modelo optimizado para inferencia en **CPU estándar**, eliminando la necesidad de infraestructura costosa (GPU) en producción.
 
-----------------------------------------------------------------------------------------------------------------
-# **Urban Traffic Activity Predictive System based on RNN (LSTM)**
+## Ecosistema Tecnológico
+El proyecto ha sido desarrollado bajo una filosofía *Open Source*, garantizando su escalabilidad e interoperabilidad:
+*   **Lenguaje:** Python 3.10. 
+*   **Deep Learning:** TensorFlow / Keras.
+*   **Procesamiento de Datos:** Pandas, NumPy, Scikit-Learn.
+*   **Interfaz IHM:** Streamlit & PyDeck (Mapas 3D interactivos).
+
+## Visualización de Resultados
+### Dashboard de Control (IHM)
+La interfaz permite a los operadores visualizar la predicción a 24 horas y la tendencia de las próximas 4 horas de forma intuitiva, con un mapa de calor dinámico sobre la ciudad de Madrid.
+<img width="722" height="372" alt="image" src="https://github.com/user-attachments/assets/429b8a24-3e45-4f24-a77e-30defdb1ec83" />
+
+### Rendimiento del Modelo PRO
+Como se observa en las pruebas de validación, el sistema captura con precisión los picos de intensidad sin presentar el efecto de desfase (*lag*) común en modelos menos optimizados.
+<img width="920" height="380" alt="image" src="https://github.com/user-attachments/assets/390ac384-c869-4ad9-ab37-2d76e75db464" />
+
+### Instalación y Uso
+1. **Clone the repo:** `git clone https://github.com/your-user/repo-name.git`
+2. **Install requirements:** `pip install -r requirements.txt`
+3. **Run the app:** `python -m streamlit run app.py`
+
+### Licencia
+**COPYRIGHT © 2025 PABLO EDU GARCÍA - TODOS LOS DERECHOS RESERVADOS.**
+*Consulte el archivo [LICENSE](./LICENSE) para más detalles.*
+
+---
+
+<a name="english"></a>
+## 🇺🇸 English
+---
 ## Abstract
 This project presents the development of an intelligent system based on LSTM neural networks 
 capable of forecasting traffic tendencies over a 24-hour period at a specific point on the M-30 freeway, 
@@ -45,3 +86,25 @@ the generated predictions on a map of Madrid, bringing the system closer to a re
 environment. The results obtained demonstrate the potential of this type of tool to improve proactive 
 urban mobility management and lay the groundwork for a scalable system that can be applied in real
 world operational environments. 
+
+### Technical Highlights
+*   **Advanced Architecture:** Implementation of a multivariate stacked LSTM capable of capturing hierarchical temporal dependencies (immediate inertia vs. seasonal trends).
+*   **Feature Engineering:** Integration of social context variables (holidays, the day before holidays, peak hours) and cyclical normalization of time.
+*   **High Accuracy:** Validation using real data from Sensor 3488 (M-30), yielding an R² of 0.9738 and an average accuracy of 90.38%.
+*   **Operational Efficiency:** Model optimized for inference on a standard CPU, eliminating the need for costly infrastructure (GPUs) in production.
+
+### Technological Environment
+El proyecto ha sido desarrollado bajo una filosofía Open Source, garantizando su escalabilidad e interoperabilidad:
+*   **Lenguage:** Python 3.10.
+*   **Deep Learning:** TensorFlow / Keras.
+*   **Data Processing: Pandas, NumPy, Scikit-Learn.
+*   **Dashboard (UX/UI):** Streamlit & PyDeck (3D interactive maps) & CSS styling layer.
+
+### Installation & Usage
+1. **Clone the repo:** `git clone https://github.com/your-user/repo-name.git`
+2. **Install requirements:** `pip install -r requirements.txt`
+3. **Run the app:** `python -m streamlit run app.py`
+
+### License
+**COPYRIGHT © 2025 PABLO EDU GARCÍA - ALL RIGHTS RESERVED.**
+*Refer to the [LICENSE](./LICENSE) file for more details.*
