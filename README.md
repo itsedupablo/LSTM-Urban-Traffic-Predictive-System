@@ -22,6 +22,7 @@ sistema a un entorno de uso real. Los resultados obtenidos demuestran el potenci
 herramientas para mejorar la gestión proactiva de la movilidad urbana, sientan las bases de un sistema 
 escalable y aplicable en entornos operativos reales.
 
+
 ----------------------------------------------------------------------------------------------------------------
 # **Urban Traffic Activity Predictive System based on RNN (LSTM)**
 ## Abstract
