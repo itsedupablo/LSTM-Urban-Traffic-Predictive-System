@@ -53,7 +53,7 @@ Como se observa en las pruebas de validación, el sistema captura con precisión
 <img width="920" height="380" alt="image" src="https://github.com/user-attachments/assets/390ac384-c869-4ad9-ab37-2d76e75db464" />
 
 ### Instalación y Uso
-1. **Clone the repo:** `git clone https://github.com/your-user/repo-name.git`
+1. **Clone the repo:** `git clone https://github.com/itsedupablo/LSTM-Urban-Traffic-Predictive-System.git`
 2. **Install requirements:** `pip install -r requirements.txt`
 3. **Run the app:** `python -m streamlit run app.py`
 
@@ -64,7 +64,7 @@ Como se observa en las pruebas de validación, el sistema captura con precisión
 ---
 
 <a name="english"></a>
-## 🇺🇸 English
+### 🇺🇸 English
 ---
 ## Abstract
 This project presents the development of an intelligent system based on LSTM neural networks 
@@ -101,7 +101,7 @@ El proyecto ha sido desarrollado bajo una filosofía Open Source, garantizando s
 *   **Dashboard (UX/UI):** Streamlit & PyDeck (3D interactive maps) & CSS styling layer.
 
 ### Installation & Usage
-1. **Clone the repo:** `git clone https://github.com/your-user/repo-name.git`
+1. **Clone the repo:** `git clone https://github.com/itsedupablo/LSTM-Urban-Traffic-Predictive-System.git`
 2. **Install requirements:** `pip install -r requirements.txt`
 3. **Run the app:** `python -m streamlit run app.py`
 
