@@ -1,5 +1,5 @@
-# **Sistema de PredicciÓn de Tráfico Urbano basado en Redes LSTM**
-# Urban Traffic Activity Predictive System based on LSTM networks
+# **Sistema Predictivo del Tráfico Urbano basado en RNN (LSTM)**
+Urban Traffic Activity Predictive System based on RNN (LSTM) 
 ----------------------------------------------------------------------------------------------------
 ## Resumen
 Este proyecto presenta el desarrollo de un sistema inteligente basado en redes neuronales LSTM capaz 
@@ -23,6 +23,7 @@ sistema a un entorno de uso real. Los resultados obtenidos demuestran el potenci
 herramientas para mejorar la gestión proactiva de la movilidad urbana, sientan las bases de un sistema 
 escalable y aplicable en entornos operativos reales.
 
+----------------------------------------------------------------------------------------------------------------
 ## Abstract
 This project presents the development of an intelligent system based on LSTM neural networks 
 capable of forecasting traffic tendencies over a 24-hour period at a specific point on the M-30 freeway, 
