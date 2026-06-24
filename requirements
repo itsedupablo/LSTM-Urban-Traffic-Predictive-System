@@ -1,0 +1,17 @@
+# Procesamiento de datos y matemáticas
+pandas
+numpy
+
+# Deep Learning 
+tensorflow
+
+# Machine Learning y métricas
+scikit-learn
+
+# Persistencia del scaler (MinMaxScaler)
+joblib
+
+# UX/UI y Visualización
+streamlit
+pydeck
+matplotlib
