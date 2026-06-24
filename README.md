@@ -1,7 +1,7 @@
 # **Sistema Predictivo del Tráfico Urbano basado en RNN (LSTM)**  
  ***Urban Traffic Activity Predictive System based on RNN (LSTM)***
 
-<img width="2862" height="1538" alt="Captura de pantalla 2026-06-24 000247" src="https://github.com/user-attachments/assets/a31c8327-7604-4b08-8e52-a507df6e18c0" />
+<img width="2862" height="1538" alt="Dashboard Interface" src="https://github.com/itsedupablo/LSTM-Urban-Traffic-Predictive-System/blob/main/images/dashboard%20interface.png" />
 
 
 > ##### **Idiomas / Languages:** [Español](#español) | [English](#english)
@@ -46,11 +46,11 @@ El proyecto ha sido desarrollado bajo una filosofía *Open Source*, garantizando
 ## Visualización de Resultados
 ### Dashboard de Control (IHM)
 La interfaz permite a los operadores visualizar la predicción a 24 horas y la tendencia de las próximas 4 horas de forma intuitiva, con un mapa de calor dinámico sobre la ciudad de Madrid.
-<img width="722" height="372" alt="image" src="https://github.com/user-attachments/assets/429b8a24-3e45-4f24-a77e-30defdb1ec83" />
+<img width="722" height="372" alt="image" src="https://github.com/itsedupablo/LSTM-Urban-Traffic-Predictive-System/blob/main/images/map%20view%20from%20dashboard.png" />
 
 ### Rendimiento del Modelo PRO
 Como se observa en las pruebas de validación, el sistema captura con precisión los picos de intensidad sin presentar el efecto de desfase (*lag*) común en modelos menos optimizados.
-<img width="920" height="380" alt="image" src="https://github.com/user-attachments/assets/390ac384-c869-4ad9-ab37-2d76e75db464" />
+<img width="920" height="380" alt="image" src="https://github.com/itsedupablo/LSTM-Urban-Traffic-Predictive-System/blob/main/images/model%20prediction%20vs%20real%20traffic.png" />
 
 ### Instalación y Uso
 1. **Clone the repo:** `git clone https://github.com/itsedupablo/LSTM-Urban-Traffic-Predictive-System.git`
