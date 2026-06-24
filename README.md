@@ -1,4 +1,4 @@
-# **Sistema Predictivo del Tráfico Urbano basado en RNN (LSTM)** *Urban Traffic Activity Predictive System based on RNN (LSTM)*
+# **Sistema Predictivo del Tráfico Urbano basado en RNN (LSTM)** \n*Urban Traffic Activity Predictive System based on RNN (LSTM)*
 ----------------------------------------------------------------------------------------------------
 ## Resumen
 Este proyecto presenta el desarrollo de un sistema inteligente basado en redes neuronales LSTM capaz 
