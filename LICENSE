@@ -1,26 +1,31 @@
-COPYRIGHT © 2025 PABLO EDU GARCÍA
+===============================================================================
+SISTEMA DE PREDICCIÓN DE TRÁFICO URBANO (M-30 MADRID)
+Trabajo de Fin de Grado - Universidad Alfonso X El Sabio
+===============================================================================
+Copyright (C) 2025-2026 Pablo Edu García
 
-TODOS LOS DERECHOS RESERVADOS.
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-Este software, el código fuente, los pesos del modelo de inteligencia artificial y la documentación técnica asociada 
-son propiedad intelectual exclusiva de Pablo Edu García.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-El acceso a este repositorio se concede exclusivamente con fines de evaluación académica dentro del marco del 
-Trabajo de Fin de Grado en la Universidad Alfonso X El Sabio.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+===============================================================================
 
-Queda terminantemente prohibida la copia, redistribución, uso comercial, modificación o ingeniería inversa de cualquier parte
-de este proyecto sin el permiso previo y por escrito del autor. 
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
 
-El uso de este modelo por parte de terceros o empresas requiere una licencia comercial específica.
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-COPYRIGHT © 2025 PABLO EDU GARCÍA
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
 
-ALL RIGHTS RESERVED.
+                            Preamble
 
-This software, the source code, the artificial intelligence model weights, and the associated technical documentation 
-are the exclusive intellectual property ofPablo Edu García.
-
-Access to this repository is granted exclusively for academic evaluation purposes within the framework of the 
-Final Degree Project at Alfonso X El Sabio University.
-
-
+ The GNU General Public License is a free, copyleft license for
+software and other kinds of works.
