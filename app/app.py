@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Copyright ©  2025-2026 Pablo Edu García
+Este código fuente es software libre: puedes redistribuirlo y/o modificarlo bajo los términos de la GNU General Public License versión 3 (GPL v3).
+"""
+
 import streamlit as st
 import pandas as pd
 import pydeck as pdk
